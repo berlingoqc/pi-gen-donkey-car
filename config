@@ -1,0 +1,11 @@
+MACHINE_NAME="donkeycar"
+
+IMG_NAME="donkey-car"
+
+LOCALE_DEFAULT="fr_CA.UTF-8"
+TARGET_HOSTNAME="rpi-$MACHINE_NAME"
+TIMEZONE_DEFAULT="America/Toronto"
+FIRST_USER_NAME=donkey
+FIRST_USER_PASS=car
+ENABLE_SSH=1
+STAGE_LIST="stage0 stage1 stage2"
